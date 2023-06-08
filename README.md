@@ -20,7 +20,14 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [References](#references)
 
 ## Introduction
+Emotion, a vital aspect of daily life, is predominantly conveyed through facial expressions, voice tones, and physiological signals like EEG and EOG. Among these, EEG signals are favored for emotion recognition due to their noninvasive nature and ease of use. Emotion recognition, crucial for regulating emotions and mental well-being, utilizes two models - the dimensional model and the discrete emotion model. The dimensional model is more intuitive and widely used as it represents emotions in a coordinate space with continuous values like arousal and valence. The advent of deep learning, particularly in EEG applications, has been transformative due to its capability to autonomously extract features and perform end-to-end classification.
 
+Objectives:
+
+- To recognize and regulate emotions, which are essential for mental health.
+- To utilize physiological signals, especially EEG, for emotion recognition as they are not influenced by subjective factors.
+- To employ the dimensional model for emotion recognition as it represents emotions using basic dimensions with continuous values.
+- To leverage the capabilities of deep learning in EEG emotion recognition for automated feature extraction and classification.
 
 ## Demo Video
 
