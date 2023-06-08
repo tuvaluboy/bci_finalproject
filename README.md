@@ -104,6 +104,72 @@ Our project, titled "Emotion Recognition from EEG Data Using Advanced Feature Ex
 <br>
 Overall, the combination of time-frequency analysis, PSD, and ERSP provided a comprehensive analysis of the EEG data for the three channels of interest. This suite of analyses can be invaluable in understanding both the temporal and spectral dynamics of brain activity, and in characterizing how the brain responds to specific events or stimuli.
 
+###  Analyzing the hidden components within EEG using ICA with ICLabel
+The analysis commenced with the loading of the EEG dataset into EEGLAB, followed by the visualization of the raw Independent Components (ICs) through the ICLabel plugin. This step served as an initial examination of the data before any pre-processing. Subsequently, a basic filter was applied to eliminate noise and confine the data to relevant frequencies. This filtered data was then plotted for visual inspection and comparison against the raw data. The next phase in the data processing involved Artifact Subspace Reconstruction (ARS), which is aimed at removing artifacts by reconstructing the EEG data. Post ARS, the ICLabel plugin was employed again to visualize the improved data quality. For a more granular analysis, attention was focused on channels FP1, FP2, and FP3. By juxtaposing the raw, filtered, and ARS-corrected plots of these channels, a subtle yet significant enhancement in data quality was discernible. The application of filtering and ARS correction reduced noise and rendered the EEG signals cleaner, which is instrumental for the accurate analysis of brain activity. This streamlined process underscores the importance of methodical preprocessing in EEG analysis, ensuring that the data is pruned and primed for further investigation.
+
+<p>
+  <table style="padding: 10px; border: solid 1px black">
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2" style="text-align: center; padding: 5px; font-weight: 600">
+      Pre-processing
+    </td>
+    <td colspan="7" style="text-align: center; padding: 5px; font-weight: 600">
+      Average numbers of ICs classified by ICLabel (FP1, FP2, F3)
+    </td>
+  </tr>
+  <tr>
+    <td>EEG (14 Channels & Eyeblink Dataset)</td>
+    <td style="text-align: center; padding: 5px">bandpass filter</td>
+    <td style="text-align: center; padding: 5px">ASR</td>
+    <td style="text-align: center; padding: 5px">Brain</td>
+    <td style="text-align: center; padding: 5px">Muscle</td>
+    <td style="text-align: center; padding: 5px">Eye</td>
+    <td style="text-align: center; padding: 5px">Heart</td>
+    <td style="text-align: center; padding: 5px">Line Noise</td>
+    <td style="text-align: center; padding: 5px">Channel Noise</td>
+    <td style="text-align: center; padding: 5px">Other</td>
+  </tr>
+  <tr>
+    <td>Raw</td>
+    <td style="text-align: center; padding: 5px">&nbsp;</td>
+    <td style="text-align: center; padding: 5px">&nbsp;</td>
+    <td style="text-align: center; padding: 5px">FP1=76.6% <br> FP2=51.3% <br> F3=42.1%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.9% <br> FP2=2.2% <br> F3=2.2%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.1% <br> FP2=0.2% <br> F3=0.2%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.6% <br> FP2=0.1% <br> F3=0.3%</td>
+    <td style="text-align: center; padding: 5px">FP1=3.7% <br> FP2=1.8% <br> F3=5.2%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.8 <br> FP2=0.1% <br> F3=0.3%</td>
+    <td style="text-align: center; padding: 5px">FP1=17% <br> FP2=44.3% <br> F3=49.7%</td>
+  </tr>
+  <tr>
+    <td>Filtered</td>
+    <td style="text-align: center; padding: 5px">v</td>
+    <td style="text-align: center; padding: 5px">&nbsp;</td>
+    <td style="text-align: center; padding: 5px">4</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">10</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">0</td>
+  </tr>
+  <tr>
+    <td>ASR-corrected</td>
+    <td style="text-align: center; padding: 5px">v</td>
+    <td style="text-align: center; padding: 5px">v</td>
+    <td style="text-align: center; padding: 5px">6</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">6</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">2</td>
+  </tr>
+</table>
+  
+</p>
+
 ## Surveying and Analyzing existing literature
 
 The research studies on brain-computer interfaces (BCIs) and emotion recognition has grown a lot over the past decade. Many scientists and engineers have begin to explore the potential of BCIs in many application areas, including mental health and emotion regulation.
