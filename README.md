@@ -68,7 +68,8 @@ Channel Selection: EEG data consists of recordings from various electrodes. For 
 
 PSD Analysis: With the data prepared, PSD analysis is performed on each selected channel. This involves calculating how the power of the EEG signals is distributed across different frequencies. The analysis helps in identifying dominant frequency bands in brain oscillations.
 
-Visualization: Finally, the results are visualized through plots where the power (usually in dB) is plotted against frequency (in Hz) for each channel. This provides insights into the characteristics of brain oscillations within different frequency bands like delta, theta, alpha, beta, and gamma.
+Visualization: Finally, the results are visualized through plots where the power (usually in dB) is plotted against frequency (in Hz) for each channel. This provides insights into the characteristics of brain oscillations within different frequency bands like delta, theta, alpha, beta, and gamma. 5 of the participants result are shownd below for visualisation:
+
 
 Analyzing the PSD of EEG data is essential for investigating neural dynamics and can be employed in various applications such as cognitive neuroscience, brain-computer interfaces, and the study of neurological disorders.
 
