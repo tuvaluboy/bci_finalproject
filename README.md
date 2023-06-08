@@ -30,7 +30,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 Dataset (SEED IV) 
 SEED IV is an evolution of the original SEED dataset, provided by the Brain-like Computing & Machine Intelligence (BCMI) laboratory, which is led by Prof. Bao-Liang Lu. To gain access to the SEED IV dataset, an application is required. Please visit the BCMI laboratory’s website to apply for access before using this dataset.
 
-Seventy-two film clips were carefully chosen through a preliminary study, which tended to include emotions such as happiness, sadness, fear, or neutrality. A total of 15 subjects participated in the experiment.
+Seventy-two film clips were carefully chosen through a preliminary study, which tended to include emotions such as <b>happiness</b>, <b>sadness</b>, <b>fear</b>, or <b>neutrality</b>. A total of 15 subjects participated in the experiment.
 
 The experiment employed a 62-Channel ESI NeuroScan system and was designed as follows: each participant underwent three sessions on different days, with each session containing 24 trials. In each trial, the participant watched a film clip intended to induce a specific emotional state (happiness, sadness, fear, or a neutral state). While the participant was watching the clip, their EEG signals and eye movements were recorded.
 <br>
