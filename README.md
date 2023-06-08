@@ -34,9 +34,16 @@ Seventy-two film clips were carefully chosen through a preliminary study, which 
 
 The experiment employed a 62-Channel ESI NeuroScan system and was designed as follows: each participant underwent three sessions on different days, with each session containing 24 trials. In each trial, the participant watched a film clip intended to induce a specific emotional state (happiness, sadness, fear, or a neutral state). While the participant was watching the clip, their EEG signals and eye movements were recorded.
 <br>
+<p align="center">
 <img src="./imgs/raw dataset lcoations.jpg" alt="raw dataset" >
+  </p>
 <br>
  
 The dataset comprises two files: eeg_raw_data and eye_raw_data. For the purpose of this experiment, we focused only on the eeg_raw_data. The eeg_raw_data folder contains the raw EEG signals from the 15 participants. Within eeg_raw_data, there are three folders named 1, 2, and 3, corresponding to the three sessions. Each .mat file is named in the format {subjectName}_{Date}.mat. These folders store a structure with fields named "cz_eeg1", "cz_eeg2", up to "cz_eeg24", which correspond to the EEG signal recorded during the 24 trials. For each of the signal processing, the raw EEG data are first downsampled to a 200 Hz sampling rate.
 
 Our project, titled "Emotion Recognition from EEG Data Using Advanced Feature Extraction and Deep Learning Techniques", focuses on emotional responses. Therefore, we concentrated on 14 selected channels - the frontal (Fp1, Fp2, F3, F4), temporal (T3, T4), central (C3, Cz, C4), parietal (P3, Pz, P4), and occipital (O1, O2) for our analyses. 
+<br>
+<p align="center">
+<img src="./imgs/14 channels.png" alt="14 channels" width="350px" height="auto"  >
+ </p>
+<br>
