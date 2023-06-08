@@ -59,17 +59,44 @@ Our project, titled "Emotion Recognition from EEG Data Using Advanced Feature Ex
 <img src="./imgs/14 channels.png" alt="14 channels" width="350px" height="auto"  >
  </p>
 <br>
-Applying Power Spectral Density Analysis to EEG Data
-Power Spectral Density (PSD) analysis is a powerful tool for understanding the frequency content of EEG signals, which are electrical recordings of brain activity.
-
-Data Loading and Preprocessing: The first step is to load the EEG dataset, which contains time-series data from multiple channels. Ensuring the data is clean and preprocessed is crucial for accurate analysis.
-
-Channel Selection: EEG data consists of recordings from various electrodes. For focused analysis, we select 14 standard channels - 'Fp1', 'Fp2', 'F3', 'F4', 'T3', 'C3', 'Cz', 'C4', 'T4', 'P3', 'Pz', 'P4', 'O1', and 'O2'. These channels capture significant aspects of brain activity.
-
-PSD Analysis: With the data prepared, PSD analysis is performed on each selected channel. This involves calculating how the power of the EEG signals is distributed across different frequencies. The analysis helps in identifying dominant frequency bands in brain oscillations.
-
-Visualization: Finally, the results are visualized through plots where the power (usually in dB) is plotted against frequency (in Hz) for each channel. This provides insights into the characteristics of brain oscillations within different frequency bands like delta, theta, alpha, beta, and gamma. 5 of the participants result are shownd below for visualisation:
-
-
-Analyzing the PSD of EEG data is essential for investigating neural dynamics and can be employed in various applications such as cognitive neuroscience, brain-computer interfaces, and the study of neurological disorders.
+ Initially, time-frequency analysis was conducted on three EEG channels - FP1, FP2, and F3. This analysis involved decomposing the EEG signals into time and frequency domains, allowing for the examination of how the spectral characteristics of the signals change over time. This is particularly important for understanding the dynamics of brain activity.
+<br>
+<p align="center">
+<img src="./imgs/time frequency analysis.png" alt="time frequency analysis" >
+ </p>
+<br>
+ After the time-frequency analysis, PSD was applied to the same three channels (FP1, FP2, and F3) to analyze the power distribution over various frequency bands. Initially, a baseline removal was applied to the PSD to normalize the spectral power relative to a reference period. However, upon visual inspection, it was observed that the removal of the baseline did not make a significant difference in this specific case.
+<br>
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="./imgs/psd.png" alt="psd" >
+      </td>
+      <td>
+        <img src="./imgs/psd.png" alt="psd" >
+      </td>
+    </tr>
+ </table>
+     </p>
+<br>
+ Finally, ERSP was applied to the three channels to analyze how the spectral power changes in response to specific events. ERSP is used to determine the average changes in amplitude over time and frequency in response to a stimulus or event, as compared to a baseline period. This provides insight into event-related brain dynamics and helps in understanding how the brain processes specific stimuli.
+<br>
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="./imgs/ERSP_FP1.png" alt="ERSP_FP1" >
+      </td>
+      <td>
+        <img src="./imgs/ERSP_FP2.png" alt="ERSP_FP2" >
+      </td>
+      <td>
+        <img src="./imgs/ERSP_F3.png" alt="ERSP_F3" >
+      </td>
+    </tr>
+ </table>
+     </p>
+<br>
+Overall, the combination of time-frequency analysis, PSD, and ERSP provided a comprehensive analysis of the EEG data for the three channels of interest. This suite of analyses can be invaluable in understanding both the temporal and spectral dynamics of brain activity, and in characterizing how the brain responds to specific events or stimuli.
 
