@@ -341,6 +341,13 @@ Please note that while this was the configuration used for development and testi
 
 
 
+## VALIDATION PROCEDURE
+
+<b>1. Validation Dataset:</b> Given the rarity and the difficulty of acquiring emotion-based EEG datasets, our study utilized a unique dataset obtained with the author's permission. As an online version of this dataset is not available, we adopted a holdout validation approach where the original dataset was split into training and testing sets. The model was trained using the training set, and the unseen testing set was used for validation.
+
+<b>2. Evaluation Metrics:</b> To evaluate our model's performance, we used accuracy as the primary metric due to its intuitive interpretability and our balanced class distribution. To gain a broader understanding of our model's performance, we also computed the precision, recall, and F1 score for each class. A confusion matrix was plotted to visually present the model's performance across different classes.
+
+<b>3. Validation Process:</b> The model was trained on the training dataset over a specified number of epochs. Post-training, the model was used to predict the class labels in the validation dataset. The predicted labels were then compared with the true labels to calculate the aforementioned metrics.
 
 
 
