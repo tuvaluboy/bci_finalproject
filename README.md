@@ -17,7 +17,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Dataset](#dataset)
 - [Independent Component Analysis (ICA)](#analyzing-the-hidden-components-within-eeg-using-ica-with-iclabel)
 - [Usage of the BCI Model's Code](#usage-of-the-bci-models-code) 
-- [Validation]
+- [Validation](#validation-procedure)
 - [Results and Discussion](#results-and-discussion)
 - [Benchmarking](#benchmarking)
 - [Conclusion and Future Works](#conclusion-and-future-works)
