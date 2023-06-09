@@ -17,8 +17,8 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Dataset](#dataset)
 - [Independent Component Analysis (ICA)](#analyzing-the-hidden-components-within-eeg-using-ica-with-iclabel)
 - [Results and Discussion](#results-and-discussion)
+- [Benchmarking](#benchmarking)
 - [Usage](#usage)
-- [Results](#results)
 - [Demo Video](#demo-video)
 - [References](#references)
 
