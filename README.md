@@ -16,7 +16,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Research Methodology](#research-methodology)
 - [Dataset](#dataset)
 - [Independent Component Analysis (ICA)](#analyzing-the-hidden-components-within-eeg-using-ica-with-iclabel)
-- [Usage of the BCI Model's Code](#usage)
+- [Usage of the BCI Model's Code](#usage-of-the-bci-model's-code)
 - [Validation]
 - [Results and Discussion](#results-and-discussion)
 - [Benchmarking](#benchmarking)
@@ -248,6 +248,49 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
 </tr>
 </table>
 </br>
+
+## USGAE OF THE BCI MODEL's CODE
+
+### Environment and Dependencies
+
+This code is developed and tested in a Python 3.9 environment using Anaconda Jupyter Notebook. In order to execute the code, your system should ideally meet the following requirements. However, please note that these are recommendations based on the development and testing environment and not strict necessities. Your code may still function on different configurations.
+
+<b>Operating System:</b> Windows 11, MacOS Mojave, or any modern Linux distribution.
+<b>Programming Language:</b> Python 3.8 or newer.
+
+Before running the code, the following Python packages must be installed:
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+
+You can install these dependencies using pip:
+
+<b>pip install numpy pandas tensorflow keras matplotlib scipy</b>
+
+### Configurable Options or Parameters
+ 
+The code includes a number of configurable parameters that you can adjust based on your specific needs:
+
+<b>1. Optimizer:</b> This parameter is currently set to 'adam', which is a widely used optimizer. You may change it to another optimizer (like 'sgd', 'rmsprop', etc.) if desired.
+
+<b>2. Loss Function:</b> The code uses 'sparse_categorical_crossentropy' as the loss function. Depending on your problem and data, you may want to use a different loss function.
+
+<b>3. Metrics:</b> The code currently measures 'accuracy' as the metric. You may add other metrics like 'precision', 'recall', etc., or replace 'accuracy' entirely.
+
+<b>4. Validation Split:</b> This parameter determines the portion of the training data to be used for validation. Currently, it's set at 0.2, meaning 20% of the training data is used for validation. You can adjust this percentage based on your preference.
+
+<b>5. Batch Size:</b> The batch size is currently set at 32. This determines the number of samples per gradient update for training. This can be adjusted according to the memory capacity of your machine and your specific needs.
+
+<b>6. Epochs:</b> The code is set to run for 50 epochs during the training phase. You can increase or decrease the number of epochs based on your requirements.
+
+Remember to adjust these parameters within the <b>model.compile</b> and <b>model.fit</b> methods in the code.
+
+
+
 
 
 
