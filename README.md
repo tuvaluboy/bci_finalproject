@@ -251,7 +251,7 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
 
 ## USGAE OF THE BCI MODEL's CODE
 
-### ENVORONMENT and DEPENDENCIES
+### ENVIRONMENT AND DEPENDENCIES
 
 This code is developed and tested in a Python 3.9 environment using Anaconda Jupyter Notebook. In order to execute the code, your system should ideally meet the following requirements. However, please note that these are recommendations based on the development and testing environment and not strict necessities. Your code may still function on different configurations.
 
@@ -278,8 +278,8 @@ You can install these dependencies using pip:
 
 
 
-### Configurable Options or Parameters
- 
+### CONFIGURABLE OPTIONS or PARAMETERS
+
 The code includes a number of configurable parameters that you can adjust based on your specific needs:
 
 <b>1. Optimizer:</b> This parameter is currently set to 'adam', which is a widely used optimizer. You may change it to another optimizer (like 'sgd', 'rmsprop', etc.) if desired.
@@ -297,7 +297,7 @@ The code includes a number of configurable parameters that you can adjust based 
 Remember to adjust these parameters within the <b>model.compile</b> and <b>model.fit</b> methods in the code.
 
 
-### Execution Instructions
+### EXECUTION INSTRUCTIONS
 
 To execute the code, follow these steps:
 
@@ -321,7 +321,7 @@ Remember, the steps to prepare the dataset can vary based on its nature and the 
 
 
 
-### System Configuration
+### SYSTEM CONFIGURATION
 
 The development and testing of the BCI model's code were performed on a system with the following configuration:
 
