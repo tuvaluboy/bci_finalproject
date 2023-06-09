@@ -260,16 +260,23 @@ This code is developed and tested in a Python 3.9 environment using Anaconda Jup
 
 Before running the code, the following Python packages must be installed:
 
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-tensorflow
+1.numpy
+
+2.pandas
+
+3.matplotlib
+
+4.seaborn
+
+5.scikit-learn
+
+6.tensorflow
 
 You can install these dependencies using pip:
 
-<b>pip install numpy pandas tensorflow keras matplotlib scipy</b>
+<b>pip install numpy pandas matplotlib seaborn scikit-learn tensorflow</b>
+
+
 
 ### Configurable Options or Parameters
  
@@ -288,6 +295,46 @@ The code includes a number of configurable parameters that you can adjust based 
 <b>6. Epochs:</b> The code is set to run for 50 epochs during the training phase. You can increase or decrease the number of epochs based on your requirements.
 
 Remember to adjust these parameters within the <b>model.compile</b> and <b>model.fit</b> methods in the code.
+
+
+### Execution Instructions
+
+To execute the code, follow these steps:
+
+<b>1. Download and Prepare the Dataset:</b> Download the necessary dataset and place it in a known directory. Make sure the dataset's path is correctly referenced in the code. If the dataset requires any pre-processing, ensure that this is completed beforehand.
+
+<b>2. Clone or Download the Code:</b> Clone the repository or download the code to your local machine.
+
+<b>3. Navigate to the Directory:</b> Open a terminal or command prompt and navigate to the directory containing the code.
+
+<b>4. Install Dependencies:</b> Install the necessary Python packages using pip, as outlined in the 'Environment and Dependencies' section.
+
+<b>5. Adjust Parameters:</b> If needed, adjust the configurable parameters within the code as described in the 'Configurable Options or Parameters' section.
+
+Run the Code: Finally, execute the Python script:
+
+<b>python filename.py</b>
+
+Please replace <b>filename.py</b> with the actual name of the Python file. The program should then execute and display the output.
+
+Remember, the steps to prepare the dataset can vary based on its nature and the requirements of your specific project. Make sure to provide adequate information if there are specific steps to be taken.
+
+
+
+### System Configuration
+
+The development and testing of the BCI model's code were performed on a system with the following configuration:
+
+<b>Operating System:</b> Windows 11 Pro Education
+
+<b>Processor:</b> AMD Ryzen 7 5800X 8-Core 16-Thread Processor 4.70 GHz
+
+<b>RAM:</b> 16.0 GB
+<b>GPU:</b> Nvidia G-force RTX 2060 (12 GB)
+<b>Hard Drive:</b> 2 TB SSD
+<b>Python Environment:</b> Python 3.9 installed via Anaconda distribution
+
+Please note that while this was the configuration used for development and testing, the code should be able to run on systems with different configurations, provided they meet the minimum requirements outlined in the 'Environment and Dependencies' section.
 
 
 
