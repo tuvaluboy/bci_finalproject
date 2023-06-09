@@ -295,6 +295,40 @@ Overall, the model demonstrates high accuracy and balanced performance across al
 <img src="./imgs/CNN-BiLSTM Model_CR.png" alt="CNN-BiLSTM Model_CR">
 
 
+Below, is the table showcasing the test accuracies of the four models utilized for emotion recognition from EEG data. The table provides a comprehensive overview of the performance of each model and their respective accuracies in accurately classifying emotions.
+
+
+<table style="padding: 10px; border: solid 1px black">
+  <tr>
+    <td><b>MODEL NAME</b></td>
+    <td  style="text-align: center; padding: 5px; font-weight: 600">
+      <b>TEST ACCURACIES % </b>
+    </td>
+  </tr>
+  <tr>
+    <td> RNN</td>
+    <td  style="text-align: center; padding: 5px; font-weight: 600">
+     97.50
+    </td>
+  </tr><tr>
+    <td> CRNN</td>
+    <td  style="text-align: center; padding: 5px; font-weight: 600">
+      93.75
+    </td>
+  </tr><tr>
+    <td> TWO-LAYER BiLSTM</td>
+    <td  style="text-align: center; padding: 5px; font-weight: 600">
+      98.12
+    </td>
+  </tr><tr>
+    <td> CNN-BiLSTM</td>
+    <td  style="text-align: center; padding: 5px; font-weight: 600">
+     92.656
+    </td>
+  </tr>
+  </table>
+
+
 
 ## References
 - Bashivan, P., Rish, I., Yeasin, M., & Codella, N. (2015). Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks. arXiv preprint arXiv:1511.06448.
