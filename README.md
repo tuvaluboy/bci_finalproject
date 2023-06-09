@@ -40,24 +40,19 @@ Through a rigorous and systematic study, this research aims to explore the effec
 
 ## LITERATURE SURVEY
 
-The research studies on brain-computer interfaces (BCIs) and emotion recognition has grown a lot over the past decade. Many scientists and engineers have begin to explore the potential of BCIs in many application areas, including mental health and emotion regulation.
+Research on brain-computer interfaces (BCIs) and emotion recognition has proliferated over the past decade. Scientists and engineers are beginning to unlock the potential of BCIs across numerous applications, including mental health and emotion regulation.
 
-### 1. Brain Computer Interfaces (BCI)
-BCIs have generated a lot of interest in recent years, as they promise to offer new ways to interact with environmental and technological systems directly through brain signals. BCI technology has been studied for a variety of applications, including assistive technology, gaming, and mental health (Wolpaw et al., 2002; Lotte et al., 2018).
+BCIs have sparked significant interest in recent years, promising novel ways to interact with environmental and technological systems directly through brain signals. BCI technology has been explored for a variety of applications, encompassing assistive technology, gaming, and mental health (Wolpaw et al., 2002; Lotte et al., 2018).
 
-### 2. Recognition and regulation of emotions.
-Emotion recognition is a very complex cognitive process that allows us to identify and understand the emotions of others, which is essential for interpersonal communication and mental health (Kret & De Gelder, 2012). Studies have found that emotion regulation, which involves managing and responding to emotional experiences, is critical to mental health and well-being (Gross, 2014). Therefore, the recognition and regulation of emotions are vital in the search for better mental health interventions. Which can be of crucial help because mental issues on peoples due to emotions is a problem that has been on a rise in the recent years.
+Emotion recognition, a complex cognitive process that allows us to identify and understand the emotions of others, is fundamental to interpersonal communication and mental health (Kret & De Gelder, 2012). Studies underscore that emotion regulation—managing and responding to emotional experiences—is crucial for mental health and wellbeing (Gross, 2014). Consequently, recognizing and regulating emotions are pivotal in the pursuit of more effective mental health interventions, especially as emotional issues are on the rise.
 
-### 3. EEG for emotion recognition
-EEG-based emotion detection has received increasing attention due to its potential to provide real-time objective indicators of emotional states. Scientists like Lin et al. (2010) and Koelstra et al. (2012) demonstrated the viability of using EEG signals for emotion detection and found that they are less susceptible to subjective interpretation than facial expressions or tones of voice.
+EEG-based emotion detection has attracted increasing attention due to its potential to offer real-time, objective indicators of emotional states. Researchers such as Lin et al. (2010) and Koelstra et al. (2012) have demonstrated the viability of using EEG signals for emotion detection, noting that they are less susceptible to subjective interpretation than facial expressions or voice tones.
 
-### 4. Dimensional model for emotion recognition.
-The dimensional model, which represents emotions in a coordinated space, has been widely used due to its intuitive nature. Several studies (Russell, 1980; Posner et al., 2005) have used this model and have highlighted its effectiveness in capturing the continuity and interrelationship of emotional experiences.
+The dimensional model, which represents emotions in a coordinate space, has been widely adopted due to its intuitive nature. Numerous studies (Russell, 1980; Posner et al., 2005) have utilized this model, attesting to its effectiveness in capturing the continuity and interrelationships of emotional experiences.
 
-### 5. Deep learning in EEG emotion recognition
-Deep learning algorithms have shown considerable success in various applications, including EEG emotion detection. Traditional machine learning methods often require manual feature extraction, which can be time consuming and error prone. However, deep learning provides automatic feature extraction and end-to-end classification, leading to better results (Cecotti & Graser, 2011; Bashivan et al., 2015).
+Deep learning algorithms have achieved remarkable success in various applications, including EEG emotion detection. Traditional machine learning methods often necessitate manual feature extraction, which can be time-consuming and error-prone. In contrast, deep learning facilitates automatic feature extraction and end-to-end classification, yielding superior results (Cecotti & Graser, 2011; Bashivan et al., 2015).
 
-The combination of BCI, emotion detection and regulation, EEG signals, dimensional modeling, and deep learning appears to be a promising avenue for further research. The next challenge is to effectively integrate these components to create a reliable and effective system for mental health applications.
+The intersection of BCI, emotion detection and regulation, EEG signals, dimensional modeling, and deep learning presents an exciting frontier for further research. The next challenge lies in effectively integrating these components to build a reliable and efficacious system for mental health applications
 
 
 ## OBJECTIVES
