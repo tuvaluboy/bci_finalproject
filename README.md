@@ -12,12 +12,13 @@ This work has been developed to fulfill the requisites of the course titled '111
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
-- [Demo Video](#demo-video)
+- [Research Methodology](#research-methodology)
 - [Dataset](#dataset)
 - [Model Framework](#model-framework)
 - [Validation](#validation)
 - [Usage](#usage)
 - [Results](#results)
+- [Demo Video](#demo-video)
 - [Surveying and Analyzing existing literature](#surveying-and-analyzing-existing-literature)
 - [References](#references)
 
@@ -46,6 +47,11 @@ Through a rigorous and systematic study, this research aims to explore the effec
 ## RESEARCH METHODOLOGY
 The research methodology adopted in this study is a systematic and rigorous sequence of steps, aimed at ensuring the accuracy and reliability of our emotion recognition model based on EEG data. This process starts from data acquisition and preprocessing, followed by artifact analysis and removal, feature extraction, dimensionality reduction, and finally, the training and testing of various machine learning and deep learning models. Below figure shows the basic flow of the methodology.
 
+<br>
+<p align="center">
+<img src="./imgs/Methodology.png" alt="Methodology" >
+  </p>
+<br>
 
 
 The methodology is designed with a focus on the quality of data, the appropriateness of the feature extraction techniques, and the suitability of the machine learning models used, ensuring each step contributes positively to the overall objective of achieving a robust EEG-based emotion recognition system.
