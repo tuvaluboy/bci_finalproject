@@ -66,7 +66,7 @@ The experiment employed a 62-Channel ESI NeuroScan system and was designed as fo
 The dataset comprises two files: eeg_raw_data and eye_raw_data. For the purpose of this experiment, we focused only on the eeg_raw_data. The eeg_raw_data folder contains the raw EEG signals from the 15 participants. Within eeg_raw_data, there are three folders named 1, 2, and 3, corresponding to the three sessions. Each .mat file is named in the format {subjectName}_{Date}.mat. These folders store a structure with fields named "cz_eeg1", "cz_eeg2", up to "cz_eeg24", which correspond to the EEG signal recorded during the 24 trials. For each of the signal processing, the raw EEG data are first downsampled to a 200 Hz sampling rate.
 <br>
 <p align="center">
-<img src="./imgs/experiment framework.jpg" alt="experiment framework v2" >
+<img src="./imgs/experiment framework v2.jpg" alt="experiment framework v2" >
   </p>
 <br>
 
