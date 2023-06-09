@@ -15,7 +15,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Objectives](#objectives)
 - [Research Methodology](#research-methodology)
 - [Dataset](#dataset)
-- [ANALYZING THE HIDDEN COMPONENTS WITHIN EEG USING ICA WITH ICLABEL](#analyzing-ica)
+- [Independent Component Analysis (ICA)](#analyzing the hidden components within eeg using ica with iclabel)
 - [Validation](#validation)
 - [Usage](#usage)
 - [Results](#results)
