@@ -21,14 +21,27 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [References](#references)
 
 ## Introduction
-Emotion, a vital aspect of daily life, is predominantly conveyed through facial expressions, voice tones, and physiological signals like EEG and EOG. Among these, EEG signals are favored for emotion recognition due to their noninvasive nature and ease of use. Emotion recognition, crucial for regulating emotions and mental well-being, utilizes two models - the dimensional model and the discrete emotion model. The dimensional model is more intuitive and widely used as it represents emotions in a coordinate space with continuous values like arousal and valence. The advent of deep learning, particularly in EEG applications, has been transformative due to its capability to autonomously extract features and perform end-to-end classification.
+Emotion recognition stands as a frontier topic in the interdisciplinary domain of psychology, neuroscience, and artificial intelligence, serving as a gateway to the next generation of human-computer interaction, and unlocking potential applications that range from healthcare, gaming, marketing to more personalized and responsive artificial intelligence systems. In this context, one promising modality for emotion recognition that has attracted significant attention is the use of Electroencephalogram (EEG).
+
+As a neuroimaging technique, EEG captures the electrical activity of the brain, offering a direct interface with the neuronal signals that correspond to various cognitive states, including emotions. However, EEG signals are complex and often require advanced processing and analytical techniques to decipher the subtle patterns that correlate with different emotional states.
+
+Amid this backdrop, this research leverages the SEED dataset, which comprises EEG recordings under three emotional states - Negative, Positive, and Neutral. This dataset, known for its robustness and validity in the context of EEG-based emotion recognition, provides a valuable foundation for our exploration.
+To unravel the intricacies of these EEG signals, this study employs an array of signal processing techniques such as Independent Component Analysis (ICA) for artifact removal, Wavelet Energy, and Shannon Entropy for feature extraction, and Principal Component Analysis (PCA) for dimensionality reduction.
+
+The extracted features are then used to train and test four different machine learning and deep learning models - Recurrent Neural Networks (RNN), Convolutional Recurrent Neural Networks (CRNN), two-layer Bidirectional Long Short-Term Memory (BiLSTM), and Convolutional Neural Network - BiLSTM (CNN-BiLSTM). These models were chosen due to their proven capability in handling sequence data and their robustness in various classification tasks.
+
+Through a rigorous and systematic study, this research aims to explore the effectiveness of these models in classifying emotions based on EEG data and contribute to the broader goal of advancing EEG-based emotion recognition.
+
 
 Objectives:
 
-- To recognize and regulate emotions, which are essential for mental health.
-- To utilize physiological signals, especially EEG, for emotion recognition as they are not influenced by subjective factors.
-- To employ the dimensional model for emotion recognition as it represents emotions using basic dimensions with continuous values.
-- To leverage the capabilities of deep learning in EEG emotion recognition for automated feature extraction and classification.
+-	To explore the feasibility of EEG-based emotion recognition using the SEED dataset.
+-	To employ Independent Component Analysis (ICA) for artifact removal in the EEG dataset.
+-	To apply Wavelet Energy and Shannon Entropy on the artifact-free EEG data for feature extraction.
+-	To implement Principal Component Analysis (PCA) for dimensionality reduction.
+-	To train and test four distinct ML and DL models, namely Recurrent Neural Networks (RNN), Convolutional Recurrent Neural Networks (CRNN), two-layer Bidirectional Long Short-Term Memory (BiLSTM), and Convolutional Neural Network - BiLSTM (CNN-BiLSTM) for emotion classification.
+-	To compare and analyze the performance of these models to determine the most efficient model for EEG-based emotion recognition.
+
 
 ## Demo Video
 
