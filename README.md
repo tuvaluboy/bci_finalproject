@@ -33,7 +33,7 @@ The extracted features are then used to train and test four different machine le
 
 Through a rigorous and systematic study, this research aims to explore the effectiveness of these models in classifying emotions based on EEG data and contribute to the broader goal of advancing EEG-based emotion recognition.
 
-## Literature Survey
+## LITERATURE SURVEY
 
 The research studies on brain-computer interfaces (BCIs) and emotion recognition has grown a lot over the past decade. Many scientists and engineers have begin to explore the potential of BCIs in many application areas, including mental health and emotion regulation.
 
@@ -154,7 +154,8 @@ Our project, titled "Emotion Recognition from EEG Data Using Advanced Feature Ex
 
 Overall, the combination of time-frequency analysis, PSD, and ERSP provided a comprehensive analysis of the EEG data for the three channels of interest. This suite of analyses can be invaluable in understanding both the temporal and spectral dynamics of brain activity, and in characterizing how the brain responds to specific events or stimuli.
 
-###  Analyzing the hidden components within EEG using ICA with ICLabel
+### ANALYZING THE HIDDEN COMPONENTS WITHIN EEG USING ICA WITH ICLABEL
+
 The analysis commenced with the loading of the EEG dataset into EEGLAB, followed by the visualization of the raw Independent Components (ICs) through the ICLabel plugin. This step served as an initial examination of the data before any pre-processing. Subsequently, a basic filter was applied to eliminate noise and confine the data to relevant frequencies. This filtered data was then plotted for visual inspection and comparison against the raw data. The next phase in the data processing involved Artifact Subspace Reconstruction (ARS), which is aimed at removing artifacts by reconstructing the EEG data. Post ARS, the ICLabel plugin was employed again to visualize the improved data quality. For a more granular analysis, attention was focused on channels FP1, FP2, and FP3. By juxtaposing the raw, filtered, and ARS-corrected plots of these channels, a subtle yet significant enhancement in data quality was discernible. The application of filtering and ARS correction reduced noise and rendered the EEG signals cleaner, which is instrumental for the accurate analysis of brain activity. This streamlined process underscores the importance of methodical preprocessing in EEG analysis, ensuring that the data is pruned and primed for further investigation.
 
 <p>
