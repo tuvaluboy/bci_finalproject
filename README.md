@@ -183,7 +183,7 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
   
 </p>
 
-## Surveying and Analyzing existing literature
+## Literature Survey
 
 The research studies on brain-computer interfaces (BCIs) and emotion recognition has grown a lot over the past decade. Many scientists and engineers have begin to explore the potential of BCIs in many application areas, including mental health and emotion regulation.
 
