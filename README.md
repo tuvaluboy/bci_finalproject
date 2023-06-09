@@ -16,7 +16,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Research Methodology](#research-methodology)
 - [Dataset](#dataset)
 - [Independent Component Analysis (ICA)](#analyzing-the-hidden-components-within-eeg-using-ica-with-iclabel)
-- [Usage of the BCI Model's Code](#usage-of-the-bci-models-code)
+- [Usage of the BCI Model's Code](#usage-of-the-bci-models-code) 
 - [Validation]
 - [Results and Discussion](#results-and-discussion)
 - [Benchmarking](#benchmarking)
@@ -249,7 +249,7 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
 </table>
 </br>
 
-## USGAE OF THE BCI MODEL's CODE
+## USAGE OF THE BCI MODEL's CODE
 
 ### ENVIRONMENT AND DEPENDENCIES
 
