@@ -361,7 +361,7 @@ The performance of the RNN model utilizing a GRU layer was quite impressive, ach
 <img src="./imgs/RNN.png" alt="RNN">
 
 <img src="./imgs/RNN_CR.png" alt="RNN_CR">
-<p>
+</p>
 ### Results obtained for Convolutional Recurrent Neural Network (CRNN)
 In this model framework, we are utilizing TensorFlow's Keras API to construct a deep learning architecture that combines convolutional and recurrent layers for emotion recognition from EEG data. The model starts with convolutional layers, where the first layer extracts 64 spatial features using a kernel size of 3 and ReLU activation, followed by a max pooling layer for downsampling. The second convolutional layer extracts 128 complex features, which are then further downsampled. These spatial features are then passed into a Gated Recurrent Unit (GRU) layer with 256 units, which captures the temporal dependencies in the data. The GRU layer outputs hidden states for each time step, preserving the sequential information. Finally, the output from the GRU layer is flattened and fed into a dense layer with softmax activation, producing probabilities for the 3 emotion classes: Negative, Neutral, and Positive. This architecture enables the model to effectively learn and classify EEG data based on emotions, combining spatial feature extraction, temporal dependency modeling, and multi-class classification.
 
@@ -433,6 +433,7 @@ Below, is the table showcasing the test accuracies of the four models utilized f
   </tr>
   </table>
   </p>
+  
   ## BENCHMARKING 
   
 In this section, we delve into the process of benchmarking the performance of our study against the state-of-the-art methodologies prevalent in our field. By adopting a comprehensive, comparative analysis, we seek to underscore our study's strengths, identify potential areas for improvement, and place our findings in the context of established practices. This holistic approach facilitates a deeper understanding of our position within the scientific community and paves the way for future advancements. To provide a clear and concise comparison, we have encapsulated our benchmarking results in the table below. This table presents a side-by-side analysis of our work and other leading studies, offering a snapshot of our research in the wider landscape of emotion recognition using EEG.
