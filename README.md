@@ -86,7 +86,7 @@ The methodology is designed with a focus on the quality of data, the appropriate
 ## DATASET
 
 Dataset (SEED) 
-SEED dataset provided by the Brain-like Computing & Machine Intelligence (BCMI) laboratory, which is led by Prof. Bao-Liang Lu. To gain access to the SEED IV dataset, an application is required. Please visit the BCMI laboratory’s website to apply for access before using this dataset.
+SEED dataset provided by the Brain-like Computing & Machine Intelligence (BCMI) laboratory, which is led by Prof. Bao-Liang Lu. To gain access to the SEED dataset, an application is required. Please visit the BCMI laboratory’s website to apply for access before using this dataset.
 
 Download dataset in this link https://bcmi.sjtu.edu.cn/home/seed/
 BCMI Laboratory homepage https://bcmi.sjtu.edu.cn/
@@ -195,26 +195,26 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
   <tr>
     <td>Filtered</td>
     <td style="text-align: center; padding: 5px">v</td>
-    <td style="text-align: center; padding: 5px">&nbsp;</td>
-    <td style="text-align: center; padding: 5px">4</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">10</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">0</td>
+    <td style="text-align: center; padding: 5px">v</td>
+     <td style="text-align: center; padding: 5px">FP1=99.9% <br> FP2=100.0% <br> F3=100.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.1% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0 <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
   </tr>
   <tr>
     <td>ASR-corrected</td>
     <td style="text-align: center; padding: 5px">v</td>
-    <td style="text-align: center; padding: 5px">v</td>
-    <td style="text-align: center; padding: 5px">6</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">6</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">0</td>
-    <td style="text-align: center; padding: 5px">2</td>
+    <td style="text-align: center; padding: 5px">&nbsp;</td>
+    <td style="text-align: center; padding: 5px">FP1=99.9% <br> FP2=100.0% <br> F3=100.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.1% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
+    <td style="text-align: center; padding: 5px">FP1=0.0% <br> FP2=0.0% <br> F3=0.0%</td>
   </tr>
 </table>
   
