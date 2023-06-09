@@ -357,19 +357,21 @@ The model utilizes TensorFlow's Keras API to construct a deep learning model. Th
 
 The performance of the RNN model utilizing a GRU layer was quite impressive, achieving a test accuracy of 97.5%. This means that in 97.5% of the instances, the model accurately predicted the emotion class for the given EEG data. The detailed classification report further breaks down this performance across each emotion class. For the Negative emotion, the model achieved a precision of 0.95, a recall of 0.99, and an F1-score of 0.97, based on 201 instances in the test set. For the Neutral emotion, the model was perfect in precision (1.00) and nearly perfect in recall (0.99), leading to an F1-score of 0.99 based on 231 instances. For the Positive emotion, the model achieved a precision of 0.97, a recall of 0.95, and an F1-score of 0.96 based on 208 instances. In the aggregate, the model achieved a macro average precision, recall, and F1-score of 0.97, and a weighted average precision and F1-score of 0.98, demonstrating its balanced and robust performance across all three emotion classes. The confusion matrix and classification report obtained using this RNN model provide a detailed view of the model's performance. These results suggest that this RNN model with a GRU layer can be effectively used for emotion recognition from EEG data.
 
+<p align="center">
 <img src="./imgs/RNN.png" alt="RNN">
 
 <img src="./imgs/RNN_CR.png" alt="RNN_CR">
-
+<p>
 ### Results obtained for Convolutional Recurrent Neural Network (CRNN)
 In this model framework, we are utilizing TensorFlow's Keras API to construct a deep learning architecture that combines convolutional and recurrent layers for emotion recognition from EEG data. The model starts with convolutional layers, where the first layer extracts 64 spatial features using a kernel size of 3 and ReLU activation, followed by a max pooling layer for downsampling. The second convolutional layer extracts 128 complex features, which are then further downsampled. These spatial features are then passed into a Gated Recurrent Unit (GRU) layer with 256 units, which captures the temporal dependencies in the data. The GRU layer outputs hidden states for each time step, preserving the sequential information. Finally, the output from the GRU layer is flattened and fed into a dense layer with softmax activation, producing probabilities for the 3 emotion classes: Negative, Neutral, and Positive. This architecture enables the model to effectively learn and classify EEG data based on emotions, combining spatial feature extraction, temporal dependency modeling, and multi-class classification.
 
 The CRNN model achieved a test accuracy of 93.75%. This indicates that the model accurately predicted the emotion class for 93.75% of the instances in the test set. The classification report further breaks down the performance for each emotion class. For the Negative emotion, the model achieved a precision of 0.87, a recall of 0.94, and an F1-score of 0.90, based on 201 instances in the test set. For the Neutral emotion, the model achieved perfect precision (1.00), recall (1.00), and F1-score (1.00) based on 231 instances. For the Positive emotion, the model achieved a precision of 0.94, a recall of 0.87, and an F1-score of 0.90 based on 208 instances. In the macro average, the model achieved a precision, recall, and F1-score of 0.94, demonstrating its balanced performance across all three emotion classes. The weighted average precision and F1-score were both 0.94, indicating the model's overall effectiveness. These results highlight the strong performance of the CRNN model for emotion recognition from EEG data. The confusion matrix and classification report obtained using this CRNN model provide a detailed view of the model's performance.
 
+<p align="center">
 <img src="./imgs/CNN-GRU.png" alt="CNN-GRU">
 
 <img src="./imgs/CNN-GRU_CR.png" alt="CNN-GRU_CR">
-
+</p>
 
 
 
@@ -379,11 +381,11 @@ In this model framework, we are utilizing TensorFlow's Keras API to construct a 
 The results obtained by the BiLSTM model for emotion recognition are highly promising. The model achieved a test accuracy of 98.125%, which indicates its ability to accurately classify EEG data into the correct emotion categories. This test accuracy represents the highest achieved among the models evaluated. The classification report provides additional insights into the model's performance for each emotion class. For the "NEGATIVE" class, the precision is 0.97, indicating a high proportion of correctly predicted negative emotions out of all predicted negative emotions. The recall is 0.98, suggesting that the model effectively identifies the true negative emotions from the dataset. The f1-score, which combines precision and recall, is 0.97, indicating a balanced performance for the negative class. Similarly, for the "NEUTRAL" class, the precision and recall are both 1.00, highlighting the model's ability to accurately predict neutral emotions and identify all true neutral emotions in the dataset. The f1-score is also 1.00, indicating excellent performance for the neutral class. For the "POSITIVE" class, the precision is 0.98, indicating a high proportion of correctly predicted positive emotions. The recall is 0.97, suggesting the model effectively captures most of the true positive emotions. The f1-score for the positive class is 0.97, indicating a balanced performance between precision and recall. The confusion matrix and classification report obtained using this Two-Layer BiLSTM model provide a detailed view of the model's performance.
 
 Overall, the model demonstrates high accuracy and balanced performance across all emotion classes, as evidenced by the macro and weighted average f1-scores of 0.98. These results indicate that the BiLSTM model effectively captures the underlying patterns and dependencies in the EEG data to accurately classify emotions.
-
+<p align="center">
 <img src="./imgs/2-Layer-BiLSTM.png" alt="2-Layer-BiLSTM">
 
 <img src="./imgs/2-Layer-BiLSTM_CR.png" alt="2-Layer-BiLSTM_CR">
-
+</p>
 
 ### Results obtained for CNN-BiLSTM
 In this model framework, we are utilizing TensorFlow's Keras API to construct a deep learning architecture that combines convolutional and recurrent layers for emotion recognition from EEG data. The model architecture begins with an input layer that matches the number of features in the training data. The input data is then expanded along the second axis using tf.expand_dims() to match the expected shape for a 1D convolutional layer. Next, convolutional layers are applied to extract spatial features from the input data. The first convolutional layer applies 64 filters with a kernel size of 3 and ReLU activation. This is followed by a max pooling layer that reduces the spatial dimensions of the feature maps. The second convolutional layer applies 128 filters with a kernel size of 3 and ReLU activation. Another max pooling layer is then applied to further down sample the feature maps. Following the convolutional layers, bidirectional LSTM (BiLSTM) layers are introduced to capture the temporal dependencies in the data. The first BiLSTM layer is configured as a bidirectional LSTM with 256 units and return_sequences=True. This layer outputs hidden states for each time step, preserving the sequential information. The output of the first BiLSTM layer is then passed to another BiLSTM layer with 128 units. A dense layer with ReLU activation is added after the second BiLSTM layer to further process the learned features. Finally, a dense layer with SoftMax activation is added to produce the final output probabilities for the three emotion classes: Negative, Neutral, and Positive. The model is constructed using the defined inputs and outputs, resulting in a Keras Model object. This architecture combines spatial feature extraction through convolutional layers, temporal dependency modeling using BiLSTM layers, and multi-layer perceptron (MLP) layers for further processing and classification.
@@ -392,14 +394,15 @@ The results obtained by the model based on the combined convolutional and recurr
 
 Overall, the model demonstrates high accuracy and balanced performance across all emotion classes, as evidenced by the macro and weighted average f1-scores of 0.92 and 0.93, respectively. Although slightly lower than the BiLSTM model, these results indicate that the combined convolutional and recurrent architecture effectively captures both spatial and temporal patterns in the EEG data to accurately classify emotions
 
+<p align="center">
 <img src="./imgs/CNN-BiLSTM Model.png" alt="CNN-BiLSTM Model">
 
 <img src="./imgs/CNN-BiLSTM Model_CR.png" alt="CNN-BiLSTM Model_CR">
-
+</p>
 
 Below, is the table showcasing the test accuracies of the four models utilized for emotion recognition from EEG data. The table provides a comprehensive overview of the performance of each model and their respective accuracies in accurately classifying emotions.
 
-
+<p align="center">
 <table style="padding: 10px; border: solid 1px black">
   <tr>
     <td><b>MODEL NAME</b></td>
@@ -429,7 +432,7 @@ Below, is the table showcasing the test accuracies of the four models utilized f
     </td>
   </tr>
   </table>
-  
+  </p>
   ## BENCHMARKING 
   
 In this section, we delve into the process of benchmarking the performance of our study against the state-of-the-art methodologies prevalent in our field. By adopting a comprehensive, comparative analysis, we seek to underscore our study's strengths, identify potential areas for improvement, and place our findings in the context of established practices. This holistic approach facilitates a deeper understanding of our position within the scientific community and paves the way for future advancements. To provide a clear and concise comparison, we have encapsulated our benchmarking results in the table below. This table presents a side-by-side analysis of our work and other leading studies, offering a snapshot of our research in the wider landscape of emotion recognition using EEG.
