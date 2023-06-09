@@ -14,7 +14,6 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Objectives](#objectives)
 - [Research Methodology](#research-methodology)
 - [Dataset](#dataset)
-- [Model Framework](#model-framework)
 - [Validation](#validation)
 - [Usage](#usage)
 - [Results](#results)
