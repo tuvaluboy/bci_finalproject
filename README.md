@@ -251,7 +251,7 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
 
 ## USGAE OF THE BCI MODEL's CODE
 
-### Environment and Dependencies
+### ENVORONMENT and DEPENDENCIES
 
 This code is developed and tested in a Python 3.9 environment using Anaconda Jupyter Notebook. In order to execute the code, your system should ideally meet the following requirements. However, please note that these are recommendations based on the development and testing environment and not strict necessities. Your code may still function on different configurations.
 
