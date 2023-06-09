@@ -152,6 +152,7 @@ Our project, titled "Emotion Recognition from EEG Data Using Advanced Feature Ex
  </table>
      </p>
 <br>
+
 Overall, the combination of time-frequency analysis, PSD, and ERSP provided a comprehensive analysis of the EEG data for the three channels of interest. This suite of analyses can be invaluable in understanding both the temporal and spectral dynamics of brain activity, and in characterizing how the brain responds to specific events or stimuli.
 
 ###  Analyzing the hidden components within EEG using ICA with ICLabel
@@ -219,7 +220,31 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
 </table>
   
 </p>
-
+<br>
+<table>
+<tr>
+  <td>RAW</td>
+  <td><img src="./imgs/ICA_LABEL.jpg" alt="ICA_LABEL"> </td>
+  <td><img src="./imgs/RAW_LABEL_IC_FP1.jpg" alt="RAW_LABEL_IC_FP1">  </td>
+  <td><img src="./imgs/RAW_LABEL_IC_FP2.jpg" alt="RAW_LABEL_IC_FP2"> </td>
+  <td><img src="./imgs/RAW_LABEL_IC_F3.jpg" alt="RAW_LABEL_IC_F3"> </td>
+</tr>
+<tr>
+  <td>FILTERED</td>
+  <td> <img src="./imgs/FILTER_LABEL_IC.jpg" alt="FILTER_LABEL_IC"></td>
+  <td> <img src="./imgs/FILTER_LABEL_IC_FP1.jpg" alt="FILTER_LABEL_IC_FP1"></td>
+  <td> <img src="./imgs/FILTER_LABEL_IC_FP2.jpg" alt="FILTER_LABEL_IC_FP2"> </td>
+  <td> <img src="./imgs/FILTER_LABEL_IC_F3.jpg" alt="FILTER_LABEL_IC_F3"> </td>
+</tr>
+<tr>
+  <td>ARS CORRECTED</td>
+  <td><img src="./imgs/ASR_LABEL_IC.jpg" alt="ASR_LABEL_IC"> </td>
+  <td> <img src="./imgs/ASR_LABEL_IC_FP1.jpg" alt="ASR_LABEL_IC_FP1"></td>
+  <td> <img src="./imgs/ASR_LABEL_IC_FP2.jpg" alt="ASR_LABEL_IC_FP2"></td>
+  <td> <img src="./imgs/ASR_LABEL_IC_F3.jpg" alt="ASR_LABEL_IC_F3"></td>
+</tr>
+</table>
+</br>
 
 ## References
 - Bashivan, P., Rish, I., Yeasin, M., & Codella, N. (2015). Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks. arXiv preprint arXiv:1511.06448.
