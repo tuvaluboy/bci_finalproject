@@ -248,6 +248,8 @@ The analysis commenced with the loading of the EEG dataset into EEGLAB, followed
 </table>
 </br>
 
+
+
 ## RESULTS AND DISCUSSION 
 
 This section presents a comprehensive account of the experimental results derived from the four different machine learning and deep learning models used in this research. A rigorous quantitative analysis has been performed using well-established evaluation metrics such as precision, recall, F1-score, and the confusion matrix.
