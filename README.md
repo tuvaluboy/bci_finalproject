@@ -468,15 +468,16 @@ In this section, we delve into the process of benchmarking the performance of ou
      <tr>
     <td>Proposed</td>
      <td>Wavelet Energy and Shannon Entropy</td>
-     <td>RNN
-        CRNN
-        BiLSTM
-        CNN-BiLSTM
+     <td>
+       RNN <br>
+        CRNN<br>
+        BiLSTM<br>
+        CNN-BiLSTM<br>
       </td>
      <td>Positive, negative, neutral</td>
-     <td>97.50
-93.75
-98.12
+     <td>97.50<br>
+93.75<br>
+98.12<br>
 92.65
 </td>
   </tr>
