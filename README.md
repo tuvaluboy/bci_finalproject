@@ -16,10 +16,11 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Research Methodology](#research-methodology)
 - [Dataset](#dataset)
 - [Independent Component Analysis (ICA)](#analyzing-the-hidden-components-within-eeg-using-ica-with-iclabel)
+- [Usage of the BCI Model's Code](#usage)
+- [Validation]
 - [Results and Discussion](#results-and-discussion)
 - [Benchmarking](#benchmarking)
 - [Conclusion and Future Works](#conclusion-and-future-works)
-- [Usage](#usage)
 - [Demo Video](#demo-video)
 - [References](#references)
 
