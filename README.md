@@ -330,8 +330,11 @@ The development and testing of the BCI model's code were performed on a system w
 <b>Processor:</b> AMD Ryzen 7 5800X 8-Core 16-Thread Processor 4.70 GHz
 
 <b>RAM:</b> 16.0 GB
+
 <b>GPU:</b> Nvidia G-force RTX 2060 (12 GB)
+
 <b>Hard Drive:</b> 2 TB SSD
+
 <b>Python Environment:</b> Python 3.9 installed via Anaconda distribution
 
 Please note that while this was the configuration used for development and testing, the code should be able to run on systems with different configurations, provided they meet the minimum requirements outlined in the 'Environment and Dependencies' section.
