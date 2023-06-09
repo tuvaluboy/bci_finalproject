@@ -435,10 +435,40 @@ Below, is the table showcasing the test accuracies of the four models utilized f
 In this section, we delve into the process of benchmarking the performance of our study against the state-of-the-art methodologies prevalent in our field. By adopting a comprehensive, comparative analysis, we seek to underscore our study's strengths, identify potential areas for improvement, and place our findings in the context of established practices. This holistic approach facilitates a deeper understanding of our position within the scientific community and paves the way for future advancements. To provide a clear and concise comparison, we have encapsulated our benchmarking results in the table below. This table presents a side-by-side analysis of our work and other leading studies, offering a snapshot of our research in the wider landscape of emotion recognition using EEG.
 
 
+
+
+
+
+
+
+
+From the data presented in the benchmarking table, it is clear that our models have demonstrated significant performance. Across all four models – RNN, CRNN, BiLSTM, and CNN-BiLSTM, our implementation has consistently outperformed those presented in the benchmarking papers, showcasing the efficacy of our approach for emotion recognition using EEG data.
  
+These results affirm the strength of our methodologies, underpinning the robustness of our models in capturing and classifying emotion-related patterns in EEG data. The superior performance of our models can be attributed to the meticulous process of model selection, optimization, and validation employed in our study. Moreover, our results also underscore the benefits of our approach, which leverages the power of deep learning to automate feature extraction and end-to-end classification, thereby minimizing the potential for human error and bias.
+
  
  
  ## CONCLUSION AND FUTURE WORKS
+ 
+Our exploration into emotion recognition using EEG data has yielded promising results. We have implemented and assessed the performance of four models – RNN, CRNN, Two-layer BiLSTM, and CNN-BiLSTM, each demonstrating strong performance when benchmarked against current methodologies in the field.
+
+Specifically, our RNN model achieved a test accuracy of 97.50%, the CRNN model achieved 93.75%, the Two-layer BiLSTM model achieved 98.12%, and the CNN-BiLSTM model achieved 92.65%. These results not only affirm the robustness of our methodologies but also highlight the effectiveness of deep learning techniques in the context of EEG-based emotion recognition.
+
+In an era where mental health issues are increasingly prevalent and the understanding of human emotion is vital for numerous applications, the importance of accurate and real-time emotion recognition cannot be overstated. EEG-based emotion recognition, in particular, offers a more objective and immediate insight into an individual's emotional state, making it an indispensable tool in areas like psychology, healthcare, and human-computer interaction. Our study contributes to this burgeoning field by enhancing the accuracy and efficiency of emotion detection using EEG data, thereby opening up new possibilities for the application of this technology in real-world settings.
+
+### FUTURE WORKS
+
+While these results are encouraging, we recognize that there are always avenues for further improvement and exploration. As such, our future work will focus on several key areas:
+
+<b>1. Model Optimization:</b> We will continue to fine-tune our models, experimenting with different configurations and hyperparameters to further boost performance.
+
+<b>2. Data Diversity:</b> We aim to test our models on additional EEG datasets, broadening the scope and enhancing the generalizability of our findings.
+
+<b>3. Technological Advancements:</b> As the field of deep learning continues to evolve, we plan to stay abreast of these developments and incorporate any relevant techniques into our models.
+
+<b>4. Practical Applications:</b> Beyond the technical aspects, we also aim to explore the real-world applications of our work, particularly in the context of mental health and emotion regulation.
+ 
+ 
 
 
 
