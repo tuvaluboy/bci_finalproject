@@ -60,12 +60,11 @@ The combination of BCI, emotion detection and regulation, EEG signals, dimension
 -	To explore the feasibility of EEG-based emotion recognition using the SEED dataset.
 -	To employ Independent Component Analysis (ICA) for artifact removal in the EEG dataset.
 -	To apply Wavelet Energy and Shannon Entropy on the artifact-free EEG data for feature extraction.
--	To implement Principal Component Analysis (PCA) for dimensionality reduction.
 -	To train and test four distinct ML and DL models, namely Recurrent Neural Networks (RNN), Convolutional Recurrent Neural Networks (CRNN), two-layer Bidirectional Long Short-Term Memory (BiLSTM), and Convolutional Neural Network - BiLSTM (CNN-BiLSTM) for emotion classification.
 -	To compare and analyze the performance of these models to determine the most efficient model for EEG-based emotion recognition.
 
 ## RESEARCH METHODOLOGY
-The research methodology adopted in this study is a systematic and rigorous sequence of steps, aimed at ensuring the accuracy and reliability of our emotion recognition model based on EEG data. This process starts from data acquisition and preprocessing, followed by artifact analysis and removal, feature extraction, dimensionality reduction, and finally, the training and testing of various machine learning and deep learning models. Below figure shows the basic flow of the methodology.
+The research methodology adopted in this study is a systematic and rigorous sequence of steps, aimed at ensuring the accuracy and reliability of our emotion recognition model based on EEG data. This process starts from data acquisition and preprocessing, followed by artifact analysis and removal, feature extraction and finally, the training and testing of various machine learning and deep learning models. Below figure shows the basic flow of the methodology.
 
 <br>
 <p align="center">
