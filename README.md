@@ -55,7 +55,7 @@ Deep learning algorithms have shown considerable success in various applications
 The combination of BCI, emotion detection and regulation, EEG signals, dimensional modeling, and deep learning appears to be a promising avenue for further research. The next challenge is to effectively integrate these components to create a reliable and effective system for mental health applications.
 
 
-## OBJECTIVES:
+## OBJECTIVES
 
 -	To explore the feasibility of EEG-based emotion recognition using the SEED dataset.
 -	To employ Independent Component Analysis (ICA) for artifact removal in the EEG dataset.
