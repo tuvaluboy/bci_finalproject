@@ -11,6 +11,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 ## Table of contents
 
 - [Introduction](#introduction)
+- [Objectives](#objectives)
 - [Demo Video](#demo-video)
 - [Dataset](#dataset)
 - [Model Framework](#model-framework)
@@ -33,7 +34,7 @@ The extracted features are then used to train and test four different machine le
 Through a rigorous and systematic study, this research aims to explore the effectiveness of these models in classifying emotions based on EEG data and contribute to the broader goal of advancing EEG-based emotion recognition.
 
 
-Objectives:
+##Objectives:
 
 -	To explore the feasibility of EEG-based emotion recognition using the SEED dataset.
 -	To employ Independent Component Analysis (ICA) for artifact removal in the EEG dataset.
@@ -43,13 +44,14 @@ Objectives:
 -	To compare and analyze the performance of these models to determine the most efficient model for EEG-based emotion recognition.
 
 ## RESEARCH METHODOLOGY
-The research methodology adopted in this study is a systematic and rigorous sequence of steps, aimed at ensuring the accuracy and reliability of our emotion recognition model based on EEG data. This process starts from data acquisition and preprocessing, followed by artifact analysis and removal, feature extraction, dimensionality reduction, and finally, the training and testing of various machine learning and deep learning models. 
+The research methodology adopted in this study is a systematic and rigorous sequence of steps, aimed at ensuring the accuracy and reliability of our emotion recognition model based on EEG data. This process starts from data acquisition and preprocessing, followed by artifact analysis and removal, feature extraction, dimensionality reduction, and finally, the training and testing of various machine learning and deep learning models. Below figure shows the basic flow of the methodology.
+
+
 
 The methodology is designed with a focus on the quality of data, the appropriateness of the feature extraction techniques, and the suitability of the machine learning models used, ensuring each step contributes positively to the overall objective of achieving a robust EEG-based emotion recognition system.
 1.	Data Acquisition and Preprocessing: The SEED dataset was procured, comprising EEG recordings in three distinct emotional states - Negative, Positive, and Neutral. Initial preprocessing steps were taken to prepare the raw EEG data for further analysis, thereby enhancing the accuracy and reliability of subsequent steps.
 2.	ICA and Artifact Analysis: Independent Component Analysis (ICA) was applied to the preprocessed EEG data. This technique is advantageous for its ability to separate the EEG data into independent components, facilitating the identification and subsequent removal of artifacts. This approach ensures that the EEG data used in subsequent stages is free of noise and other irrelevant information, thereby enhancing the precision of the results.
 3.	Feature Extraction: Wavelet Energy and Shannon Entropy were applied to the artifact-free EEG data. These methods have been chosen due to their proven efficiency in capturing essential features in temporal data such as EEG. They help transform complex EEG signals into a form that can be more readily understood and processed by the machine learning models.
-4.	Dimensionality Reduction: Principal Component Analysis (PCA) was used to reduce the dimensionality of the dataset. PCA helps in removing redundant features, resulting in a more manageable and less complex dataset, without significant loss of information. This not only improves computational efficiency but also reduces the likelihood of overfitting in the models.
 5.	Model Training and Testing: Four different machine learning and deep learning models (RNN, CRNN, two-layer BiLSTM, and CNN-BiLSTM) were trained and tested on the processed dataset. These models were chosen due to their demonstrated efficacy in handling sequence data and their robust performance in various classification tasks. The implementation of these models allowed for a comparison of performance and the selection of the most efficient model for EEG-based emotion recognition.
 
 
