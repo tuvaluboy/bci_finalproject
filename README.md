@@ -435,7 +435,53 @@ Below, is the table showcasing the test accuracies of the four models utilized f
 In this section, we delve into the process of benchmarking the performance of our study against the state-of-the-art methodologies prevalent in our field. By adopting a comprehensive, comparative analysis, we seek to underscore our study's strengths, identify potential areas for improvement, and place our findings in the context of established practices. This holistic approach facilitates a deeper understanding of our position within the scientific community and paves the way for future advancements. To provide a clear and concise comparison, we have encapsulated our benchmarking results in the table below. This table presents a side-by-side analysis of our work and other leading studies, offering a snapshot of our research in the wider landscape of emotion recognition using EEG.
 
 
-
+<p>
+  <table>
+  <tr>
+    <td>Author</td>
+     <td>Feature Extraction</td>
+     <td>Classifier used</td>
+     <td>Emotions</td>
+     <td>Accuracy %</td>
+  </tr>
+     <tr>
+    <td>W.L. Zheng et al. [13]</td>
+     <td>DfE</td>
+     <td>DBN</td>
+     <td>Positive, negative, neutral</td>
+     <td>86.65</td>
+  </tr>
+     <tr>
+    <td>Mikel Val-Calvo et al. [50]</td>
+     <td>DfE</td>
+     <td>SVM</td>
+     <td>Positive, negative, neutral</td>
+     <td>82.27</td>
+  </tr>
+     <tr>
+    <td>Joshi, V. M et al.</td>
+     <td>LF-DfE</td>
+     <td>BiLSTM</td>
+     <td>Positive, negative, neutral</td>
+     <td>90.22</td>
+  </tr>
+     <tr>
+    <td>Proposed</td>
+     <td>Wavelet Energy and Shannon Entropy</td>
+     <td>RNN
+        CRNN
+        BiLSTM
+        CNN-BiLSTM
+      </td>
+     <td>Positive, negative, neutral</td>
+     <td>97.50
+93.75
+98.12
+92.65
+</td>
+  </tr>
+  </table>
+</p>
 
 
 
