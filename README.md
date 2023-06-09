@@ -112,7 +112,7 @@ Our project, titled "Emotion Recognition from EEG Data Using Advanced Feature Ex
 <img src="./imgs/14 channels.png" alt="14 channels" width="350px" height="auto"  >
  </p>
 <br>
- Initially, time-frequency analysis was conducted on three EEG channels - FP1, FP2, and F3. This analysis involved decomposing the EEG signals into time and frequency domains, allowing for the examination of how the spectral characteristics of the signals change over time. This is particularly important for understanding the dynamics of brain activity.
+ Initially, time-frequency analysis was conducted on three EEG channels - FP1, FP2, and F3 ( just for show case). This analysis involved decomposing the EEG signals into time and frequency domains, allowing for the examination of how the spectral characteristics of the signals change over time. This is particularly important for understanding the dynamics of brain activity.
 <br>
 <p align="center">
 <img src="./imgs/time frequency analysis.png" alt="time frequency analysis" >
