@@ -519,7 +519,11 @@ While these results are encouraging, we recognize that there are always avenues 
 <b>4. Practical Applications:</b> Beyond the technical aspects, we also aim to explore the real-world applications of our work, particularly in the context of mental health and emotion regulation.
  
  
+## DEMO VIDEO
 
+You can watch the demo video by using the below google drive link
+
+https://drive.google.com/drive/folders/1exXZs3oEFOjoz9Gs_80B5J0C16BQH5pe?usp=sharing
 
 
 ## REFERENCES
