@@ -448,14 +448,14 @@ In this section, we delve into the process of benchmarking the performance of ou
      <td>Accuracy %</td>
   </tr>
      <tr>
-    <td>W.L. Zheng et al. [13]</td>
+    <td>W.L. Zheng et al. </td>
      <td>DfE</td>
      <td>DBN</td>
      <td>Positive, negative, neutral</td>
      <td>86.65</td>
   </tr>
      <tr>
-    <td>Mikel Val-Calvo et al. [50]</td>
+    <td>Mikel Val-Calvo et al. </td>
      <td>DfE</td>
      <td>SVM</td>
      <td>Positive, negative, neutral</td>
@@ -522,14 +522,18 @@ While these results are encouraging, we recognize that there are always avenues 
 
 
 
-## References
+## REFERENCES
 - Bashivan, P., Rish, I., Yeasin, M., & Codella, N. (2015). Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks. arXiv preprint arXiv:1511.06448.
 - Cecotti, H., & Graser, A. (2011). Convolutional neural networks for P300 detection with application to brain-computer interfaces. IEEE Transactions on Pattern Analysis and Machine Intelligence, 33(3), 433-445.
 - Gross, J. J. (2014). Emotion regulation: Conceptual and empirical foundations. In Handbook of emotion regulation (2nd ed., pp. 3-20). Guilford Press.
 - Koelstra, S., Mühl, C., Soleymani, M., Lee, J. S., Yazdani, A., Ebrahimi, T., ... & Patras, I. (2012). DEAP: A database for emotion analysis; using physiological signals. IEEE Transactions on Affective Computing, 3(1), 18-31.
+- Joshi, V. M., & Ghongade, R. B. (2021). EEG based emotion detection using fourth order spectral moment and deep learning. Biomedical Signal Processing and Control, 68, 102755.
 - Kret, M. E., & De Gelder, B. (2012). A review on sex differences in processing emotional signals. Neuropsychologia, 50(7), 1211-1221.
 - Lin, Y. P., Wang, C. H., Jung, T. P., Wu, T. L., Jeng, S. K., Duann, J. R., & Chen, J. H. (2010). EEG-based emotion recognition in music listening. IEEE Transactions on Biomedical Engineering, 57(7), 1798-1806.
 - Lotte, F., Bougrain, L., Cichocki, A., Clerc, M., Congedo, M., Rakotomamonjy, A., & Yger, F. (2018). A review of classification algorithms for EEG-based brain–computer interfaces: a 10-year update. Journal of neural engineering, 15(3), 031005.
 - Posner, J., Russell, J. A., & Peterson, B. S. (2005). The circumplex model of affect: An integrative approach to affective neuroscience, cognitive development, and psychopathology. Development and psychopathology, 17(3), 715-734.
 - Russell, J. A. (1980). A circumplex model of affect. Journal of personality and social psychology, 39(6), 1161.
+- Val-Calvo, M., Álvarez-Sánchez, J. R., Ferrández-Vicente, J. M., & Fernández, E. (2019). Optimization of real-time EEG artifact removal and emotion estimation for human-robot interaction applications. Frontiers in Computational Neuroscience, 13, 80.
 - Wolpaw, J. R., Birbaumer, N., McFarland, D. J., Pfurtscheller, G., & Vaughan, T. M. (2002). Brain–computer interfaces for communication and control. Clinical neurophysiology, 113(6), 767-791.
+- W.-L. Zheng, B.-L. Lu, Investigating critical frequency bands and channels for EEGbased emotion recognition with deep neural networks, IEEE Trans. Auton. Ment. Dev. 7 (2015) 162–175.
+- Wei-Long Zheng, and Bao-Liang Lu, Investigating Critical Frequency Bands and Channels for EEG-based Emotion Recognition with Deep Neural Networks, accepted by IEEE Transactions on Autonomous Mental Development (IEEE TAMD) 7(3): 162-175, 2015.
