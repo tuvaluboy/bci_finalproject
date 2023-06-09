@@ -21,7 +21,7 @@ This work has been developed to fulfill the requisites of the course titled '111
 - [Surveying and Analyzing existing literature](#surveying-and-analyzing-existing-literature)
 - [References](#references)
 
-## Introduction
+## INDTRODUCTION
 Emotion recognition stands as a frontier topic in the interdisciplinary domain of psychology, neuroscience, and artificial intelligence, serving as a gateway to the next generation of human-computer interaction, and unlocking potential applications that range from healthcare, gaming, marketing to more personalized and responsive artificial intelligence systems. In this context, one promising modality for emotion recognition that has attracted significant attention is the use of Electroencephalogram (EEG).
 
 As a neuroimaging technique, EEG captures the electrical activity of the brain, offering a direct interface with the neuronal signals that correspond to various cognitive states, including emotions. However, EEG signals are complex and often require advanced processing and analytical techniques to decipher the subtle patterns that correlate with different emotional states.
@@ -34,7 +34,7 @@ The extracted features are then used to train and test four different machine le
 Through a rigorous and systematic study, this research aims to explore the effectiveness of these models in classifying emotions based on EEG data and contribute to the broader goal of advancing EEG-based emotion recognition.
 
 
-##Objectives:
+## OBJECTIVES:
 
 -	To explore the feasibility of EEG-based emotion recognition using the SEED dataset.
 -	To employ Independent Component Analysis (ICA) for artifact removal in the EEG dataset.
@@ -60,10 +60,9 @@ The methodology is designed with a focus on the quality of data, the appropriate
 5.	Model Training and Testing: Four different machine learning and deep learning models (RNN, CRNN, two-layer BiLSTM, and CNN-BiLSTM) were trained and tested on the processed dataset. These models were chosen due to their demonstrated efficacy in handling sequence data and their robust performance in various classification tasks. The implementation of these models allowed for a comparison of performance and the selection of the most efficient model for EEG-based emotion recognition.
 
 
-## Demo Video
 
 
-## Dataset
+## DATASET
 
 Dataset (SEED) 
 SEED dataset provided by the Brain-like Computing & Machine Intelligence (BCMI) laboratory, which is led by Prof. Bao-Liang Lu. To gain access to the SEED IV dataset, an application is required. Please visit the BCMI laboratory’s website to apply for access before using this dataset.
